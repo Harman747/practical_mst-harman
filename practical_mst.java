@@ -23,7 +23,7 @@ public class practical_mst {
         }
     }
 
-    public static void prinr_mat(int mat[][]){
+    public static void print_mat(int mat[][]){
 
         for(int i = 0 ; i < row ; i++){
             for(int j = 0 ; j < col ; j++){
@@ -74,10 +74,10 @@ public class practical_mst {
         sub_mat(matrix1 , matrix2 , subtraction);
 
         System.out.println("Matrix after Addition is: ");
-        prinr_mat(addition);
+        print_mat(addition);
 
         System.out.println("Matrix after Subtraction is: ");
-        prinr_mat(subtraction);
+        print_mat(subtraction);
 
     }
 
